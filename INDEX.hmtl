@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="interface">
+    <div class="calculadora">
+        <input type="text" name="conta" id="conta" placeholder="Conta">
+        <input type="text" name="value" id="value" placeholder="Resultado">
+        <div class="buttons">
+    <button id="btn1" onclick="calcular('1')">1</button>
+    <button id="btn2" onclick="calcular('2')">2</button>
+    <button id="btn3" onclick="calcular('3')">3</button>
+    <br>
+    <button id="btn4" onclick="calcular('4')">4</button>
+    <button id="btn5" onclick="calcular('5')">5</button>
+    <button id="btn6" onclick="calcular('6')">6</button>
+    <br>
+    <button id="btn7" onclick="calcular('7')">7</button>
+    <button id="btn8" onclick="calcular('8')">8</button>
+    <button id="btn9" onclick="calcular('9')">9</button>
+    <br>
+    <button id="btn0" onclick="calcular('0')">0</button>
+    <br>
+    <br>
+    <button id="add" onclick="calcular('+')">+</button>
+    <button id="sub" onclick="calcular('-')">-</button>
+    <button id="mul" onclick="calcular('*')">*</button><br>
+    <button id="dis" onclick="calcular('/')">/</button>
+    <button id="equal" onclick="calcular('=')">=</button>
+    <button id="c" onclick="limpar()">C</button>
+    </div>
+<hr>
+    </div>
+</div>
+
+
+    <div id="Resultados">
+    
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
