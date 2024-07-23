@@ -1,6 +1,3 @@
-Claro, aqui está o texto na primeira pessoa com uma linguagem mais simples e formal:
-
-
 
 Desenvolver uma calculadora usando HTML, CSS e JavaScript foi uma experiência interessante e educativa para mim. Comecei organizando o HTML para definir os elementos principais da calculadora. 
 Utilizei `<input>` para mostrar números e resultados, e `<button>` para representar dígitos e operadores matemáticos.
